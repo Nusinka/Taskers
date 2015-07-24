@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "co": "~4.6.0",
+    "connect-redis": "~2.2.0",
+    "jquery": "~2.1.4",
+    "knex": "~0.8.6",
+    "koa": "~0.21.0",
+    "koa-bodyparser": "~2.0.0",
+    "koa-generic-session": "~1.9.0",
+    "koa-mount": "~1.3.0",
+    "koa-redis": "~1.0.0",
+    "koa-router": "~5.1.2",
+    "koa-static": "~1.4.9",
+    "koa-swig": "~2.0.0",
+    "less": "~2.5.1",
+    "lodash": "~3.7.0",
+    "mandrill-api": "~1.0.45",
+    "moment": "~2.10.2",
+    "mysql": "~2.6.2",
+    "sweetalert": "~1.0.1",
+    "swig": "~1.4.2",
+    "thunkify": "^2.1.2",
+    "koa-better-body": "~1.0.17",
+    "koa-multer": "0.0.1",
+    "koa-body": "~1.2.1"
+  },
+  "devDependencies": {
+    "html-loader": "~0.2.3",
+    "webpack": "~1.8.9",
+    "style-loader": "~0.12.3",
+    "css-loader": "~0.15.1"
+  },
+  "scripts": {
+    "dev": "webpack --d --progress --colors --watch"
+  }
+}

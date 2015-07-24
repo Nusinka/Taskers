@@ -1,0 +1,56 @@
+body {
+    background-color: #EEE;
+}
+
+div.container.login-form {
+    max-width: 330px;
+    margin-top: 100px;
+    li {
+        width: 50%;
+    }
+    h1 {
+        text-align: center;
+    }
+    button {
+        margin-top: 15px;
+    }
+    p.help-block {
+        display: none;
+        .has-error {
+            display: block;
+      }
+    }
+}
+
+input (@radius:0) {
+    .inputLogin {
+        border-bottom-left-radius: @radius;
+        border-bottom-right-radius: @radius;
+    }
+    .inputPassword {
+        border-top-left-radius: @radius;
+        border-top-right-radius: @radius;
+    }
+}
+
+table#table th {
+    background-color: #CCC;
+    text-align: center;
+}
+
+form span#creator {
+    margin: 0 46px;
+}
+
+.row {
+    margin-bottom: 10px;
+    .table {
+        margin-bottom: 0;
+    }
+}
+li {
+    list-style-type: none;
+    span {
+        margin: 10px;
+    }
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: #EEE;
+}
+div.container.login-form {
+    max-width: 330px;
+    margin-top: 100px;
+}
+div.container.login-form li {
+    width: 50%;
+}
+div.login-form h1 {
+    text-align: center;
+}
+div.login-form button {
+    margin-top: 15px;
+}
+div.login-form p.help-block {
+    display: none;
+}
+div.login-form p.has-error {
+    display: block;
+}
+form.form-signup p.need-verify{
+    display: block;
+}
+form.form-signin p.has-error{
+    display: block;
+}
+input.inputLogin {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+input.inputPassword {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+table#table th {
+    background-color: #CCC;
+    text-align: center;
+}
+form span#creator {
+    margin: 0 46px;
+}
+.row {
+    margin-bottom: 10px;
+}
+.row .table {
+    margin-bottom: 0;
+}
+li {
+    list-style-type: none;
+}
+li span {
+    margin: 10px;
+}

@@ -1,0 +1,10 @@
+{% extends './layout.html' %}
+
+{% block head %}
+    <script src="/js/dashboard.js"></script>
+    <script>
+        setAppData('users', {{ users | json | safe }});
+        setAppData('priors', {{ priors | json | safe }});
+        setAppData('statuses', {{ statuses | json | safe }});
+    </script>
+{% endblock %}
